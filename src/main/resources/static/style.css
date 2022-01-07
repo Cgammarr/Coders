@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    height: 2500px;
+    background-color: gainsboro;
+
+}
+
+ /* background: linear-gradient(135deg,#afd9d5, #d5d8d7, #77d0cf,#a7c6d2, #75b3cf
+    );
+
+*/
+
+
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    width: 100%;
+    background-image: linear-gradient(135deg,#ffffff, #e0e2e0, #afd9d5,#d5d8d7, #a7c6d2, #75b3cf
+    );
+    background-size: 500%;
+    animation: animacion 10s infinite;
+    font-family: ´calibri´, sans-serif;
+    font-size: 3em;
+
+}
+@keyframes animacion{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+
+}
+nav {
+    float: right; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpio errores de float */
+}
+
+nav ul li {
+    float: right;
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 30%;
+}
+
+nav ul li a {
+    display: block; /* Convierto los elementos a  elementos bloque para manipular el padding */
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: linear-gradient(135deg, white, #ffffff, #eeeeee, #dddddd, #cccccc, #bbbbbb, #ababab,
+    #9b9b9b);
+}
+
+.box{
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 30px;
+    color: #a7c6d2;
+    border: 3px solid #3a3a3a;
+    width:60px;
+    transition: all .5s;
+}
+input.src:hover{
+    width: 180px;
+    background: linear-gradient(135deg,#ffffff, #e0e2e0, #afd9d5,#d5d8d7, #a7c6d2, #75b3cf);
+    border-color: #3a3a3a;
+    box-shadow: 0 0 5px antiquewhite;
+    animation: animacion 10s infinite;
+}
+p {
+    margin-bottom: 20px;
+}
+.container {
+    width: 40%;
+    height: 1280px;
+    background: whitesmoke;
+    float: left;
+    box-shadow: 2px 2px 6px #3a3a3a;
+}
+aside {
+    width: 60%;
+    height: 1280px;
+    background-image: linear-gradient(135deg, white, #ffffff, #eeeeee, #dddddd, #cccccc, #bbbbbb, #ababab,
+    #9b9b9b);
+    animation: animacion 10s infinite;
+    float: right;
+    box-shadow: 2px 2px 6px white;
+}
+
+.tablita{
+    display: inline-block;
+    flex: content-box;
+
+}
+/*Tablaaaaaa Estilos*/
+.tabla{
+    border-collapse: collapse; /*Esta propiedad hace que parezca mas una tabla*/
+    font-family: 'Quicksand', sans-serif;
+}
+table tr th{
+    border: 5px solid #D5D9D9;
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-image: linear-gradient(135deg, white, #ffffff, #eeeeee, #dddddd, #cccccc, #bbbbbb, #ababab,
+    #9b9b9b);
+
+}
+/* Para el estilo de las nuevas celdas */
+td {
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+}
+.caja{
+    display: table;
+    padding: 5px;
+    margin: 50px 10px;
+    background-image: linear-gradient(135deg, white, #ffffff, #eeeeee, #dddddd, #cccccc, #bbbbbb, #ababab,
+    #9b9b9b);
+}
+.caja label{
+    font-family: 'Quicksand', sans-serif;
+}
+.caja input{
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.submit{
+    width: 8em;
+    height: 3em;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    background-image: linear-gradient(135deg, white, #ffffff, #eeeeee, #dddddd, #cccccc, #bbbbbb, #ababab,
+    #9b9b9b);
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+}
+input{
+    background-image: linear-gradient(135deg, white, #ffffff, #eeeeee, #dddddd, #cccccc, #bbbbbb, #ababab,
+    #9b9b9b);
+    border-radius: 0.2rem;
+
+}
+
+
+
+
+
+

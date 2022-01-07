@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion Coder</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+   <div class="menu">
+       <img src="" alt="Logo">
+       <nav>
+           <ul>
+               <li><a href="GestionarCoders.html">GESTIONAR CODERS</a></li>
+               <li><a href="Promocion.html">PROMOCION</a></li>
+               <li><a href="http://localhost:8080">INICIO</a></li>
+           </ul>
+       </nav>
+   </div>
+    <div class="box">
+        <input type="text" name="search" placeholder="Buscar" class="src" autocomplete="off">
+    </div>
+</header>
+<div class="page">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+            <div class="caja">
+                <label for="nom">Nombre</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
+                <label for="ape">Apellido</label> <input type="text" id="ape" placeholder="Escriba aqui" required>
+                <label for="pais">País</label> <input type="text" id="pais" placeholder="Escriba aqui" required>
+                <label for="ed">Edad</label> <input type="text" id="ed" placeholder="Escriba aqui" required>
+                <label for="dire">Direccion</label> <input type="text" id="dire" placeholder="Escriba aqui" required>
+                <label for="est">Estudios</label> <input type="text" id="est" placeholder="Escriba aqui" required>
+                <label for="promo">Promocion</label> <input type="text" id="promo" placeholder="Escriba aqui" required>
+            </div>
+            <div class="tablita">
+                <table class="tabla" id="tabla">
+                    <input class="submit" type="submit" value="Agregar">xº
+                    <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>País</th>
+                        <th>Edad</th>
+                        <th>Direccion</th>
+                        <th>Estudios</th>
+                        <th>Promocion</th>
+                        <th>Opciones</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+        </form>
+        <br/>
+        <br/>
+</div>
+<footer>Esto es un footer</footer>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
